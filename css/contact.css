@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+
+@media screen and (max-width:1280px){
+
+    #contact .contact_inner .text_box p {
+       font-size:15px;
+    }
+
+
+    #contact .left_wrap .profile_list li {
+        font-size:12px;
+    }
+
+
+    #contact .left_wrap .profile_list .title {
+        font-size: 14px;
+    }
+
+
+    form input[type="text"], form input[type="email"], form textarea {
+       font-size:13px;
+    }
+
+
+    input[type="submit"] {
+        font-size: 13px;
+    }
+
+
+    #contact .right_wrap .row .form_box3 {
+        padding-bottom:5%;
+    }
+   
+
+    #contact .contact_inner .left_wrap {
+       width:30vw;
+    }
+
+    #contact .left_wrap .profile_list {
+       width:24vw;
+    }
+
+
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    #contact .contact_inner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #contact .contact_inner .text_wrap .title {
+       margin-top:10vh;
+    }
+
+    #contact .contact_inner .text_box p {
+        font-size: 13px;
+    }
+
+
+    #contact .contact_inner .contact_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-top: 5vh;
+    }
+
+    #contact .contact_inner .left_wrap {
+        width: 80%;
+        margin:0 auto;
+        height:20vh;
+    }
+
+    #contact .left_wrap .profile_list {
+        width: 90%;
+        height: 90%;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: center;
+        padding: 0;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+
+    #contact .right_wrap .row {
+        width: 80%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin:0 auto;
+        background-color:#ededed;
+    }
+
+
+    #contact .right_wrap .row .form_box {
+        width:80%;
+       margin:0 auto;
+    }
+
+    form textarea {
+        width: 40vw;
+        height: 15vh;
+    }
+
+    form input[type="text"], form input[type="email"]{
+        display: block;
+        background: #fff;
+        border: solid 1px #e3dffd;
+        width: 40%;
+        font-size: 10px;
+        padding: 1vh 1vw;
+    } 
+
+
+    #contact .right_wrap .row .form_box2 {
+        width:100%;
+        
+    }
+
+
+    
+    form textarea {
+        display: block;
+        background: #fff;
+        border: solid 1px #e3dffd;
+        width: 80%;
+        font-size: 10px;
+        padding: 1vh 1vw;
+        margin:0 auto;
+    }
+
+
+    input[type="submit"] {
+        font-size: 10px;
+    }
+
+    #contact .right_wrap {
+        background-color:#fff;
+    }
+}
+   
+
+
