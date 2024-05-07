@@ -1,27 +1,27 @@
 @charset "utf-8";
 
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1280px) {
 
 
-     /* portfolio2 */
-     #portfolio_group .inner .hover_box {
+    /* portfolio2 */
+    #portfolio_group .inner .hover_box {
         right: -5%;
         top: -5%;
-        }
-    
+    }
+
     .redesign_group .inner .text_wrap .title_box .title {
-        font-size:25px;
+        font-size: 25px;
     }
 
 
     .redesign_group .inner .text_wrap .title_box .txt {
         font-size: 18px;
     }
-   
+
 
     .redesign_group .inner .text_wrap .text_box .title {
-       font-size:13px;
+        font-size: 13px;
     }
 
 
@@ -30,7 +30,7 @@
     }
 
     .redesign_group .inner .text_wrap .title_box .redesign {
-        margin-top:5vh;
+        margin-top: 5vh;
     }
 
 
@@ -40,24 +40,24 @@
 
 
     .redesign_group .inner .link a {
-     font-size:18px;
+        font-size: 18px;
     }
 }
 
 
 
 
-@media screen and (max-width:1028px){
+@media screen and (max-width:1028px) {
 
 
     .redesign_group {
         width: 100%;
         height: 90vh;
-       margin:0;
+        margin: 0;
     }
 
     .redesign_group .inner {
-       
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -67,7 +67,7 @@
 
     .redesign_group .inner .mockup_wrap {
         width: 45vw;
-        margin-right:0;
+        margin-right: 0;
     }
 
 
@@ -75,21 +75,21 @@
 
     .redesign_group .inner .text_wrap {
         padding-bottom: 0;
-        text-align:center;
-        display:flex;
+        text-align: center;
+        display: flex;
         flex-direction: column;
-        order:1;
-        margin-top:5vh;
-       
+        order: 1;
+        margin-top: 5vh;
+
     }
 
 
     .redesign_group .inner .text_wrap .text_box {
-       display:none;
+        display: none;
     }
-    
 
-    .redesign_group .inner .text_wrap .title_box>div{
+
+    .redesign_group .inner .text_wrap .title_box>div {
         justify-content: center;
     }
 
@@ -101,23 +101,22 @@
         margin-top: 5vh;
     }
 
-    .redesign_group .inner .link a{
-        width:100%;
-        margin-right:0;
+    .redesign_group .inner .link a {
+        width: 100%;
+        margin-right: 0;
     }
 
 
     .redesign_group .inner .text_wrap .title_box .redesign {
-        display:none;
+        display: none;
     }
 
 
-   
+
 
     #portfolio2 .mockup_wrap {
-        margin-left:0;
-        margin-top:0;
-       
+        margin-top: 0;
+
     }
 
 
@@ -129,19 +128,31 @@
 
 
     .redesign_group .inner .hover_box {
-        display:none;
+        display: none;
     }
 
 
 
-    
-
-
-
-
-
-    
 
 
 }
 
+
+
+@media screen and (max-width:600px) {
+
+    .redesign_group {
+        width: 100%;
+        height: 70vh;
+        margin: 0;
+        padding-top: 10vh;
+    }
+
+
+
+
+
+
+
+
+}

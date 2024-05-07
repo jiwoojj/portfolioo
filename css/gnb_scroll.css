@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1280px) {
 
-    #gnb_scroll{
-        display:none;
+    #gnb_scroll {
+        display: none;
     }
 
 }

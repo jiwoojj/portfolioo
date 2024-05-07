@@ -1,53 +1,53 @@
 @charset "utf-8";
 
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1280px) {
 
     header .logo a {
-        font-size:40px;
+        font-size: 40px;
     }
 
 
     header #gnb>li>a {
-       font-size:15px;
+        font-size: 15px;
     }
 }
 
 
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) {
 
-    header{
-        display:flex;
+    header {
+        display: flex;
         align-items: center;
     }
 
     header .logo a {
-        font-size:40px;
-        margin-left:5vw;
+        font-size: 40px;
+        margin-left: 5vw;
     }
 
 
-    header .logo{
-        margin:0 auto;
+    header .logo {
+        margin: 0 auto;
     }
 
     header #gnb>li>a {
-       font-size:15px;
+        font-size: 15px;
     }
 
 
     header #gnb {
-        display:none;
+        display: none;
     }
 
 
-    #sidebar_btn{
-        display:block;
-        margin-right:5vw;
-        font-size:30px;
-        color:#979797;
-        cursor:pointer;
+    #sidebar_btn {
+        display: block;
+        margin-right: 5vw;
+        font-size: 30px;
+        color: #979797;
+        cursor: pointer;
     }
 
 
@@ -59,7 +59,7 @@
         right: -50vw;
         width: 50vw;
         height: 100%;
-        background: #8db9eb;  
+        background: #8db9eb;
         z-index: 99999;
         transition: all 0.3s;
     }
@@ -102,8 +102,8 @@
 
     .sidebar_inner #sidebar_gnb {
         position: absolute;
-        top:20vh;
-        left:5vw;
+        top: 20vh;
+        left: 5vw;
     }
 
     #sidebar_gnb>li>a {
